@@ -1,0 +1,115 @@
+Brian Yoo 140007707
+Michelle Gavino 138004573
+
+
+./search out
+out:
+<list> acorn
+testcases/bin1/subbin1/car 1 testcases/bin2/GREEN 1 testcases/atest 1 
+</list>
+<list> apple
+testcases/atest 3 testcases/btest 2 testcases/bin1/subbin1/car 1 testcases/bin2/GREEN 1 
+</list>
+<list> audi
+testcases/bin1/subbin1/car 1 
+</list>
+<list> auto
+testcases/bin1/subbin1/car 1 
+</list>
+<list> b1
+testcases/bin1/BLUE 1 
+</list>
+<list> b2
+testcases/bin1/subbin2/RED 1 testcases/bin1/BLUE 1 
+</list>
+<list> b3
+testcases/bin1/BLUE 1 
+</list>
+<list> blue
+testcases/bin1/subbin2/RED 1 
+</list>
+<list> corn
+testcases/atest 1 
+</list>
+<list> g1
+testcases/bin2/GREEN 1 
+</list>
+<list> g2
+testcases/bin2/GREEN 1 
+</list>
+<list> gone
+testcases/btest 1 
+</list>
+<list> grain
+testcases/btest 1 
+</list>
+<list> hey
+testcases/bin2/GREEN 1 testcases/btest 1 
+</list>
+<list> hope
+testcases/bin1/subbin1/car 1 testcases/bin1/BLUE 1 testcases/btest 1 
+</list>
+<list> mobile
+testcases/bin1/subbin1/car 1 
+</list>
+<list> ounce
+testcases/atest 1 
+</list>
+<list> r1
+testcases/bin1/subbin2/RED 1 
+</list>
+<list> r2
+testcases/bin1/subbin2/RED 1 
+</list>
+<list> r3
+testcases/bin1/subbin2/RED 1 
+</list>
+
+
+
+
+
+Test Case 1:
+Input: so lion animal rutgers
+
+Output:
+
+Test Case 2:
+Input: sa acorn apple
+
+Output: testcases/atest
+
+Test Case 3:
+Input: sa b1 gone hey
+
+Output:
+
+Test Case 4:
+Input: sa gone grain hey
+
+Output: testcases/btest
+
+Test Case 5:
+Input: so gone corn hope
+
+Output: testcases/btest testcases/atest testcases/bin1/BLUE
+
+Test Case 6:
+Input: so ounce acorn grain gone corn b3
+
+Output: testcases/atest testcases/btest testcases/bin1/BLUE
+
+Test Case 7:
+Input: so lion dog red
+
+Output:
+
+Test Case 8:
+Input: so acorn hey hope ounce
+
+Output: testcases/atest testcases/btest testcases/bin1/BLUE
+
+Test Case 9:
+Input: q
+
+Output:
