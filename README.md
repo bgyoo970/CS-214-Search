@@ -23,6 +23,6 @@ print out the result accordingly. This method was run in O(n^2) time since it ha
 same array in two for loops.
 
 ###### a note.
-A bug exists for multiple queries
+There is a bug for multiple queries
 
 All use of this code must comply with the [Rutgers University Code of Student Conduct](http://eden.rutgers.edu/%7Epmj34/media/AcademicIntegrity.pdf).
